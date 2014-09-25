@@ -64,7 +64,7 @@ public class Test {
  
         // dwoch sasiadow
         Board board2 = new Board(5, 5);
-        board2.setCellValue(0, 0, true);
+        board2.setCellValue(3, 0, true);
         board2.setCellValue(1, 1, true);
         board2.setCellValue(1, 0, true);
         Assert.assertEquals(2, board2.countAliveNeighbours(0, 0));
